@@ -1,0 +1,12 @@
+numpy
+python-ldap
+Django
+django-adminlte2
+django-debug-toolbar
+pip
+pyasn1
+pyasn1-modules
+pytz
+setuptools
+sqlparse
+wheel

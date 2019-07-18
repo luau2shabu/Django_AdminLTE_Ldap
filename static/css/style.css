@@ -1,0 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,700'); */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+html {
+    font-family: 'Source Sans Pro' !important;
+}
+
+body {
+    font-family: 'Source Sans Pro' !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: 'Source Sans Pro' !important;
+}
+
+footer {
+    width: 100%;
+    margin: auto auto 0 auto;
+}
+
+pre {
+    font: 22px Consolas,monaco,monospace;
+    color: #666;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 3px;
+    border: 0px solid #e5e5e5;
+    background-color: transparent;
+}
+
+.input-span {
+    padding-top: 9px;
+    padding-right: 12px;
+}
+
+.navbar-header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.footer-container {
+    display: flex;
+    background: #f8f8f8;
+    padding: 20px 0 20px 0;
+}
+
+.footer-container p {
+    margin: auto;
+}
+
+.full-w {
+    width: 100%;
+}
+
+.haft-w {
+    width: 50%;
+}
+
+.pd-l60px {
+    padding-left: 60px;
+}
+
+.pd-l {
+    padding-left: 2px;
+}
+
+.pd-t {
+    padding-top: 10%;
+}
+
+.pd-l-16 {
+    padding-left: 16%;
+}
+
+.font-w {
+    font-weight: 800;
+}
+
+.font-w600 {
+    font-weight: 600;
+    font-size: 22px;
+    text-shadow: 1px 1px #e4d7d7;
+    color: black;
+}
+
+.input-44 {
+    width: 40%;
+}
+
+.input-2 {
+    width: 2px;
+}
+
+.bg {
+    position: relative;
+}
+
+.bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/work.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    opacity: .55;
+    z-index:-1;
+    position: absolute;
+}
+
+.bg-t {
+    background: transparent !important;
+}
+
+.li-mtop7 {
+    margin-top: 7px !important;
+}
